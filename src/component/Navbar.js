@@ -8,7 +8,7 @@ export class Navbar extends Component {
             <div className="navbar navbar-dark bg-primary navbar-expand-sm">
                 <div className="container">
                     <Link to="/" className="navbar-brand">
-                        <i className={this.props.icon}></i> {this.props.title}
+                        <i className={this.props.icon+" mr-2"}></i> {this.props.title}
                     </Link>
                     <div className="collapse navbar-collapse">
                         <ul className="navbar-nav ml-auto">
@@ -24,7 +24,7 @@ export class Navbar extends Component {
 }
 
 Navbar.defaultProps = {
-    title : "Abdullah TOPCU",
+    title : "GitHub Kullanıcı Arama",
     icon : "fab fa-github"
 }
 

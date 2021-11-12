@@ -28,7 +28,7 @@ const Search = () => {
             <div className="container my-3">
                 <form onSubmit={onSubmit}>
                     <div className="input-group">
-                        <input type="text" value={keyword} className="form-control" onChange={onChange}/>
+                        <input type="text" value={keyword} className="form-control" placeholder="Kullanıcı Ara" onChange={onChange}/>
                         <div className="input-group-append">
                             <button type="submit" className="btn btn-primary">Search</button>
                         </div>  
